@@ -111,6 +111,6 @@ for Instance in response['Reservations']:
 
             Name = "None"
 
-        print(Name, "," ,InstanceId ,"," ,InstanceType, "," ,state,",",VPCId,",",PublicIpAddress,",",PrivateIP,",",metadata)
+        print(Name, "," ,InstanceId ,"," ,InstanceType, "," ,state,",",VPCId,",",PublicIpAddress,",",PrivateIP,",",Metadata)
 
         
